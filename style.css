@@ -1,0 +1,192 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    
+}
+.clr{
+    clear: both;
+}
+
+
+/* navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+	background-color: aqua;
+    
+	
+}
+
+.logo {
+    font-size: larger;
+    
+
+}
+.logo h1{
+    padding-left: 50px;
+}
+.logo span{
+    color: #d16bf3;
+}
+
+.nav-link ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-link ul li {
+    margin-right: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+
+.nav-link ul li a {
+    text-decoration: none;
+    font-weight: 600;
+}
+button{
+	background-color: #e26cf7;
+    padding: 11px 25px;
+    font-size: 18px;
+    margin-right: 40px;
+    border-style: none;
+    border-radius: 5px;
+    transition: 0.5s linear;
+	
+}
+button:hover{
+    background-color: coral;
+    color:aliceblue;
+
+}
+
+
+/* home section stert */
+
+.home {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #f4f7ff;
+    margin-bottom: 100px;
+}
+
+.home .content {
+    margin-bottom: 80px;
+}
+.title{
+	width:500px;
+	text-align:justify;
+}
+
+
+/*
+ home section end 
+*/
+
+
+/*-----------------------------
+about css
+------------------------------*/
+.about{
+	margin-bottom: 150px;
+	
+}
+.container{
+	
+}
+.about .container{
+	display:flex;
+	justify-content:space-evenly;
+	align-items:center;
+	margin-top: 80px;
+}
+.text{
+	width:530px;
+	height:400px;
+    margin-top: -150px;
+	
+}
+/*
+hr.new1 {
+	border-top: 1px solid red;
+	width:30px;
+
+  }
+*/
+.text h1{
+	font-size:40px;
+	color:#9900cc;
+    text-align: center;
+    font-weight: 800;
+}
+.text p{
+	font-size:17px;
+	text-align: justify;
+	user-select: none;
+}
+.container .img img{
+	width: 400px;
+    margin-top: -20px;
+}
+
+
+/*
+--------------------------------------
+*/
+.service{
+   
+	margin:0 auto;
+	
+}
+.about-top{
+    background-color: #e8c4f5;
+    margin-bottom: 50px;
+}
+.section-title{
+    text-align: center;
+    padding-bottom: 80px;
+}
+.section-title h3{
+    font-size: 46px;
+    color: #9900cc;
+    font-weight: 800;
+    padding-top: 55px;
+}
+.section-title p{
+    font-size: 16px;
+    color:;
+    font-weight: 400;
+    width: 60%;
+    margin: 30px auto;
+}
+
+
+
+.card{
+    display:flex;
+    width:1200px;
+    text-align: center;
+    margin: 0 auto;
+}
+.service .content{
+	padding:23px;
+	background-color: #cc9966;
+	border-right:4px solid #fff;
+    margin-bottom: 100px;
+}
+.service .content h1{
+	font-size:30px;
+   
+}
+.service .content p{
+	font-size:17px;
+	text-align:justify;
+	user-select: none;
+	
+	
+}
