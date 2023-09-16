@@ -3,6 +3,10 @@ body {
     font-family: sans-serif;
     box-sizing: border-box;
     
+    
+}
+html{
+    scroll-behavior: smooth;
 }
 .clr{
     clear: both;
@@ -17,6 +21,7 @@ body {
     padding: 10px;
 	background-color: aqua;
     
+   
 	
 }
 
@@ -47,6 +52,11 @@ body {
 .nav-link ul li a {
     text-decoration: none;
     font-weight: 600;
+    transition: 0.2s linear;
+    
+}
+.nav-link ul li a:hover{
+color: brown;
 }
 button{
 	background-color: #e26cf7;
@@ -72,15 +82,18 @@ button:hover{
     justify-content: space-evenly;
     align-items: center;
     background-color: #f4f7ff;
-    margin-bottom: 100px;
+    padding-bottom: 160px;
 }
 
 .home .content {
-    margin-bottom: 80px;
+    margin-top: 40px;
 }
 .title{
 	width:500px;
 	text-align:justify;
+}
+.home-image img{
+    padding-top: 100px;
 }
 
 
@@ -103,7 +116,7 @@ about css
 	display:flex;
 	justify-content:space-evenly;
 	align-items:center;
-	margin-top: 80px;
+	padding-top: 100px;
 }
 .text{
 	width:530px;
